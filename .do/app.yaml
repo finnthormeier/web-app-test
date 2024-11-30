@@ -1,0 +1,8 @@
+name: my-app
+static_sites:
+- name: web
+  github:
+    branch: main
+    repo_clone_url: [your-github-url]
+  build_command: echo "Static site, no build needed"
+  output_dir: /
